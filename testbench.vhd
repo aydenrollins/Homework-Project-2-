@@ -11,7 +11,6 @@ component ButtonPress_FSM is
 end component;
 
   constant CLK_PERIOD : time := 20 ns;
-  constant BP_STATE : time := 30 ns;
 
   signal clk_tb, rst_tb, b_tb, y_tb : std_logic;
 
